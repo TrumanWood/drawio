@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T05:58:34.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="mC2mTvsePKD398eVb759" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T06:02:32.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5MsuO1h1nQvPPMH4Yl98" version="20.5.1" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="simple gitflow">
     <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -59,13 +59,13 @@
         <mxCell id="9hBKPDzoitwpIBdzFDQ7-44" value="依赖注入（属性赋值）&lt;br&gt;Autowired" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="530.88" y="112.5" width="172.75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="9hBKPDzoitwpIBdzFDQ7-60" value="初始化&lt;br&gt;（实现 InitalizingBean 接口）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="9hBKPDzoitwpIBdzFDQ7-60" value="初始化&lt;br&gt;（实现 InitalizingBean 接口）&lt;br&gt;&lt;i&gt;instance of 判断&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="820" y="85" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2tXcn566ppJfBg0_dX7r-9" value="普通对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Georgia;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="435" y="125" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2tXcn566ppJfBg0_dX7r-10" value="初始化前&lt;br&gt;（@PostConstruct）&lt;br&gt;反射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Georgia;fontColor=#666666;" vertex="1" parent="1">
+        <mxCell id="2tXcn566ppJfBg0_dX7r-10" value="初始化前&lt;br&gt;（@PostConstruct）&lt;br&gt;&lt;i&gt;&lt;b&gt;反射&lt;/b&gt;判断&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Georgia;fontColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="700" y="105" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2tXcn566ppJfBg0_dX7r-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fontFamily=Georgia;fontSize=12;fontColor=#666666;endArrow=none;endFill=0;" edge="1" parent="1" source="2tXcn566ppJfBg0_dX7r-11" target="2tXcn566ppJfBg0_dX7r-15">
